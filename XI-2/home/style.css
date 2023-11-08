@@ -1,0 +1,160 @@
+title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    padding: 5px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* div opening */
+.truk-opening {
+    background-color: #fffffe;
+}
+
+/* div gammbar logo */
+.header {
+    display: flex;
+    /* background-color: #e3f6f5; */
+}
+
+.logo img {
+    height: 70px;
+    padding: 10px;
+}
+
+/* div judul */
+h1.exposo {
+    font-family: 'bebas neue';
+    font-weight: normal;
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: black;
+}
+
+/* dasar navbar */
+nav.navbar {
+    background-color: #e3f6f5;
+    display: flex;
+    border-radius: 10px;
+    position: sticky;
+    top: 5px;
+}
+
+/* div tombol */
+ul {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+}
+
+.nav {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.nav:hover {
+    background-color: #ffd803;
+}
+.nav:active {
+    background-color: #ffd803;
+}
+
+/* div tulisan linked dlm tombol */
+.nav a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #272343;
+    font-size: 1.1em;
+    font-family: 'bebas neue';
+    letter-spacing: 2px;
+}
+
+/* div welcome and foto kls*/
+.content-foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* welcome */
+h1.opening {
+    font-size: 2.7em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #272343;
+    margin: 10px 0px 0px 10px;
+}
+
+/* foto kelas opening */
+.foto-kelas img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #bae8e8;
+
+}
+
+/* deskripsi kelas */
+p.desk {
+    font-size: 1em;
+    margin: 5px 0px 10px 20px;
+    color: #2d334a;
+}
+
+/* section semua struktur kelas */
+.truk-struktur {
+    background-color: #00473e;
+}
+h2.struktur {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 0;
+}
+
+/* pengurus kelas */
+h2.struktur {
+    color: #fffffe;
+}
+
+/* kiri */
+/* div foto */
+.foto img {
+    height: 100px;
+    border-radius: 50px;
+    margin: 5px 0px 20px 20px;
+}
+
+/* tata letak bio */
+.pengurus {
+    display: block;
+    height: auto;
+    weight
+    background-color: #272343;
+
+}
+
+/* bio */
+/* .bio {
+    display: block;
+    padding: 10px;
+} */
+h3.nama {
+    margin: 0px 0px 0px 10px;
+    color: #fffffe;
+}
+p.jabatan {
+    margin: 3px 0px 0px 10px;
+    font-size: 0.9em;
+    color: #f2f7f5;
+}

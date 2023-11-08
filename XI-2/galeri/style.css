@@ -1,0 +1,55 @@
+title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fffffe;
+}
+
+/* dasar navbar */
+nav {
+    background-color: #bae8e8;
+    display: flex;
+    border-radius: 10px;
+}
+
+/* div gammbar logo */
+.logo img {
+    height: 70px;
+    padding: 10px;
+}
+
+/* div tombol */
+
+ul {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+}
+
+.nav {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.nav:hover {
+    background-color: #ffd803;
+}
+.nav:active {
+    background-color: #ffd803;
+}
+
+/* div tulisan linked dlm tombol */
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #272343;
+    font-size: 1em;
+}
